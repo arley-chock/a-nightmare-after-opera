@@ -1,0 +1,57 @@
+  @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+  @import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+  *{
+    margin: 0;
+  }
+  body
+  {
+   background-image: url(9b3f7e3d91021f05a95539b0ebe227c9.jpg);
+   background-position: center;
+   background-size: cover;
+
+  }
+  .typewriter {
+    font-family: 'Anonymous Pro', monospace;
+    width: 70%;  
+  }
+  h1 {
+    overflow: visible;
+    align-self:auto;
+    position: relative;
+    margin: 10cm;
+        font-family: 'Times New Roman', Times, serif; font-size: 50px;
+        
+
+  }
+  footer:after{
+   content: '';
+    display: inline-block;
+    background-color: rgb(2, 0, 0);
+    height: 25px;
+    width: 4px;
+    animation: cursor 0.4s infinite;
+  }
+  p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    margin: 3cm;
+    margin-right: 2cm;
+  }
+  .footer{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    margin: 10cm;
+
+  }
+  .btn-pages{
+     font-family: 'Times New Roman', Times, serif; font-size: 20px;
+  }
+
+  /* The typewriter cursor effect */
+  @keyframes cursor {
+    0% { opacity: 1; }
+      49% { opacity: 1; }
+      50% { opacity: 0; }
+      100% { opacity: 0; }
+  }
+  
