@@ -15,23 +15,22 @@
     width: 70%;  
   }
   h1 {
-    overflow: visible;
-    align-self:auto;
-    position: relative;
-    margin: 10cm;
-        font-family: 'Times New Roman', Times, serif; font-size: 50px;
+  position: relative;
+font-family: 'Times New Roman', Times, serif; font-size: 50px;
+margin: auto 0;
+
         
 
   }
   footer:after{
    content: '';
     display: inline-block;
-    background-color: rgb(2, 0, 0);
+    background-color: rgb(0, 105, 119);
     height: 25px;
     width: 4px;
     animation: cursor 0.4s infinite;
   }
-  p{
+  .p{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 40px;
     margin: 3cm;
