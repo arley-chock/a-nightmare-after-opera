@@ -2,23 +2,7 @@
 	overflow:hidden;
 	border:1px solid rgba(0, 0, 0, 1);
 }
-.e2_2 { 
-	box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
-	background-color:rgb(0, 0, 0);
-	width:1440px;
-	height:1024px;
-	position:absolute;
-}
-.e2_3 { 
-	width:1440px;
-	height:1024px;
-	position:absolute;
-	left:0px;
-	top:0px;
-	background-image:url(images/9b3f7e3d91021f05a95539b0ebe227c9_1.png);
-	background-repeat:no-repeat;
-	background-size:cover;
-}
+
 .e2_4 { 
 	color:rgba(0, 0, 0, 1);
 	width:350px;
