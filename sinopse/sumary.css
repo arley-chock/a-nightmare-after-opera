@@ -41,6 +41,9 @@ margin: auto 0;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px;
     margin: 10cm;
+      position:fixed;
+      bottom: 0;
+      width:100%;
 
   }
   .btn-pages{
