@@ -1,90 +1,141 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <link href='https://fonts.googleapis.com/css?family=Ballet' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Alex Brush' rel='stylesheet'>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="database/favicon.ico" type="image/x-icon">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    
-</head>
-<body>
-    <style>      
-        
-    body{
-    background-image: url('database/3307827a7dc797a99fa3d37780ae9b10.gif');
-    background-size: cover;
-    background-repeat: no-repeat;
-}
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Ballet"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Alex Brush"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="database/favicon.ico" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <style>
+      body {
+        background-image: url("database/3307827a7dc797a99fa3d37780ae9b10.gif");
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
 
-.line{
-    border-right: 2px solid whitesmoke;
-    color: whitesmoke;
-    font-family: 'Ballet';font-size: 5em;
-    margin: auto 0;
-}
+      .line {
+        border-right: 2px solid whitesmoke;
+        color: whitesmoke;
+        font-family: "Ballet";
+        font-size: 5em;
+        margin: auto 0;
+      }
 
-.line2{
-    border-right: 2px solid turquoise;
-    color: turquoise;
-    font-family:'Alex Brush';font-size: 2em;
-    margin:auto 0 ;
-}
-.line3{
-    border-right: 2px solid white;
-    color: white;
-    font-family:Georgia, 'Times New Roman', Times, serif;font-size: 0.5em;
-    margin:auto 0 ;
+      .line2 {
+        border-right: 2px solid turquoise;
+        color: turquoise;
+        font-family: "Alex Brush";
+        font-size: 2em;
+        margin: auto 0;
+      }
+      .line3 {
+        border-right: 2px solid white;
+        color: white;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        font-size: 0.5em;
+        margin: auto 0;
+      }
+      .footer {
+        border-right: 2px solid white;
+        color: white;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        font-size: 1em;
+        margin: auto 0;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+      .escrita {
+        border-right: 2px solid white;
+        color: white;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        font-size: 2em;
+        margin-inline-start: 10em;
+        position: relative;
+        width: auto 1;
+      }
+      .btn-hover {
+        border: 1px solid rgb(2, 150, 177);
+        border-radius: 3px;
+        background-color: unset;
+        color: white;
+        font-size: 18px;
+      }
+      .btn-hover:hover {
+        color: rgb(0, 174, 255) !important;
+      }
+    </style>
+    <p class="line">A nightmare after opera</p>
+    <p class="line2">call me acy</p>
+    <p class="escrita">parte do livro apenas</p>
+    <a href="sumary.html"><button class="btn-hover">o começo</button></a>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+    <div class="dropdown">
+      <button
+        class="btn-hover"
+        type="button"
+        id="dropdownMenuButton2"
+        data-bs-toggle="dropdown"
+        aria-expanded="false"
+      >
+        capitulos
+      </button>
 
-}
-.footer{
-    border-right: 2px solid white;
-    color: white;
-    font-family:Georgia, 'Times New Roman', Times, serif;font-size: 1em;
-    margin:auto 0 ;
-    position:fixed;
-    bottom:0;
-    width:100%;
-}
-.escrita{
-    border-right: 2px solid white;
-    color: white;
-    font-family:Georgia, 'Times New Roman', Times, serif;font-size: 2em;
-    margin-inline-start: 10em;
-    position: relative;
-    width: auto 1;
- 
-}
-.btn-hover{border: 1px solid rgb(2, 150, 177); border-radius: 3px; background-color: unset; color: white; font-size: 18px;}.btn-hover:hover{color:rgb(0, 174, 255) !important;}
- </style> 
- <p class='line'>A nightmare after opera</p>
- <p class="line2">call me acy</p>
- <p class="escrita">parte do livro apenas</p>
- <a href="sumary.html"><button class="btn-hover">o começo</button></a>
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
-<div class="dropdown">
-    <button class="btn-hover" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
-      capitulos
-    </button>
+      <ul
+        class="dropdown-menu dropdown-menu-dark"
+        aria-labelledby="dropdownMenuButton2"
+      >
+        <li>
+          <a class="dropdown-item active" href="capitulo1.html"
+            >1° capitulo - uma vida anormal de shoreditch.</a
+          >
+        </li>
+        <li>
+          <a class="dropdown-item" href="capitulo 2.html"
+            >2° - aos poucos tudo dar errado.</a
+          >
+        </li>
+        <li>
+          <a class="dropdown-item" href="capitulo3.html"
+            >3° - ordem e regresso</a
+          >
+        </li>
+        <li><a class="dropdown-item" href="capitulo3.html">4° - </a></li>
+        <li><hr class="dropdown-divider" /></li>
+        <li><a class="dropdown-item" href="#">coming soon...</a></li>
+      </ul>
+    </div>
+  </body>
 
-    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
-      <li><a class="dropdown-item active" href="capitulo1.html">1° capitulo - uma vida anormal de shoreditch.</a></li>
-      <li><a class="dropdown-item" href="capitulo2.html">2° - aos poucos tudo dar errado.</a></li>
-      <li><a class="dropdown-item" href="capitulo3.html">3° - ordem e regresso</a></li>
-      <li><a class="dropdown-item" href="capitulo3.html">4° - </a></li>
-      <li><hr class="dropdown-divider"></li>
-      <li><a class="dropdown-item" href="#">coming soon...</a></li>
-    </ul>
-  </div>  
-</body>
-
-
-<footer class="footer">
-     criador arley :3
-  <audio autoplay controls loop src="database/golden-brown-1981-hq-instrumental-lyrics.mp3">golden browm</audio>
-  <p>musica com direitos que irei trocar</p>
-   
-</footer>
+  <footer class="footer">
+    criador arley :3
+    <audio
+      autoplay
+      controls
+      loop
+      src="database/golden-brown-1981-hq-instrumental-lyrics.mp3"
+    >
+      golden browm
+    </audio>
+    <p>musica com direitos que irei trocar</p>
+  </footer>
 </html>
