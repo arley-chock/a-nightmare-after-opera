@@ -1,0 +1,107 @@
+.2_2 { 
+	overflow:hidden;
+	border:1px solid rgba(0, 0, 0, 1);
+}.e2_2 { 
+	box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+	background-color:rgba(255, 255, 255, 1);
+	width:1440px;
+	height:1024px;
+	position:absolute;
+}.e2_3 { 
+	width:1440px;
+	height:1024px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	background-image:url(images/9b3f7e3d91021f05a95539b0ebe227c9_1.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}.e2_4 { 
+	color:rgba(0, 0, 0, 1);
+	width:350px;
+	height:95px;
+	position:absolute;
+	left:56px;
+	top:78px;
+	font-family:Times New Roman;
+	text-align:left;
+	font-size:80px;
+	letter-spacing:0;
+}.e3_6 { 
+	color:rgba(0, 0, 0, 1);
+	width:299px;
+	height:92px;
+	position:absolute;
+	left:56px;
+	top:220px;
+	font-family:Times New Roman;
+	text-align:left;
+	font-size:50px;
+	letter-spacing:0;
+}.e3_9 { 
+	color:rgba(0, 0, 0, 1);
+	width:462px;
+	height:36px;
+	position:absolute;
+	left:78px;
+	top:329px;
+	font-family:Sofia;
+	text-align:left;
+	font-size:30px;
+	letter-spacing:0;
+}.e34_5 { 
+	width:252px;
+	height:234px;
+	position:absolute;
+	left:1060px;
+	top:78px;
+}.e3_10 { 
+	color:rgba(0, 0, 0, 1);
+	width:1270px;
+	height:123px;
+	position:absolute;
+	left:56px;
+	top:378px;
+	font-family:Arial;
+	text-align:left;
+	font-size:25px;
+	letter-spacing:0;
+}.e34_3 { 
+	color:rgba(0, 0, 0, 1);
+	width:1301px;
+	height:381px;
+	position:absolute;
+	left:59px;
+	top:514px;
+	font-family:Arial;
+	text-align:left;
+	font-size:25px;
+	letter-spacing:0;
+}.e108_2 { 
+	width:253px;
+	height:239px;
+	position:absolute;
+	left:995px;
+	top:65px;
+}.e108_3 { 
+	box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+	width:236.8079833984375px;
+	height:223.70401000976562px;
+	position:absolute;
+	left:8.096000671386719px;
+	top:7.647998332977295px;
+	background-image:url(images/camada_4.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}.e110_3 { 
+	color:rgba(0, 0, 0, 1);
+	width:1298px;
+	height:80px;
+	position:absolute;
+	left:62px;
+	top:913px;
+	font-family:Arial;
+	text-align:left;
+	font-size:25px;
+	letter-spacing:0;
+}
