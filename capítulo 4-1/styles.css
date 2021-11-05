@@ -1,0 +1,122 @@
+.h1 {
+  position: absolute;
+  width: 614px;
+  height: 117px;
+  left: 56px;
+  top: 78px;
+
+  font-family: "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 65px;
+  line-height: 92px;
+
+  color: #000000;
+}
+
+.subtitle {
+  position: absolute;
+  width: 388px;
+  height: 63px;
+  left: 56px;
+  top: 220px;
+
+  font-family: Old Standard TT;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 62px;
+
+  color: #000000;
+}
+
+.Data {
+  position: absolute;
+  left: 56px;
+  top: 400px;
+
+  font-family: Sofia;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 47px;
+
+  color: #000000;
+}
+
+.Data2 {
+  position: absolute;
+  width: 650px;
+  height: 45px;
+  left: 59px;
+  top: 600px;
+
+  font-family: Sofia;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 47px;
+
+  color: #cf0505;
+}
+
+.fire {
+  position: absolute;
+  width: 300px;
+  height: 550px;
+  left: 1050px;
+  top: -31px;
+  background-repeat: no-repeat;
+  background: url(images/ODkF.gif);
+}
+
+.primeirotexto {
+  position: absolute;
+  width: 1270px;
+  height: 123px;
+  left: 50px;
+  top: 450px;
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 29px;
+
+  color: #000000;
+}
+
+.segundotexto {
+  position: absolute;
+  width: 1238px;
+  height: 729px;
+  left: 50px;
+  top: 680px;
+  align-items: left;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 29px;
+
+  color: #000000;
+}
+
+.complemento {
+  position: absolute;
+  width: 1238px;
+  height: 729px;
+  left: 50px;
+  top: 650px;
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 29px;
+
+  color: #4e0000;
+}
+.bloodred {
+  color: #4e0000;
+}
